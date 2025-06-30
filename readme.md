@@ -86,6 +86,16 @@ Lower bound is 1/8 in this case because of interaction between rotational and re
 ![End Game Value Error](plots/avg_value_error.png)
 Model kinda knows who's about to win, but in games like this it's tricky because the game ends suddenly. Something that complicates these estimates further is the fact that I'm using Gumbel action selection from the Gumbel MuZero paper, but I've set n=m=8 which is a very small number of actions sampled, and m=n disables lookahead. So this is basically PPO at this point.
 
+**Parameter Updates**  
+![Parameter Updates](plots/param_updates.png)
+Magnitude of parameter updates at different points in training.
+
+**Policy Entropy**  
+![Policy Entropy](plots/policy_entropy.png)
+Entropy of policy at different depths in the game stack.
+
+
+
 ---
 
 _All plots are automatically updated as training progresses._
