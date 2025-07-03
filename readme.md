@@ -61,6 +61,15 @@ Displaying the opening moves corresponding to the most common symmetry group
 
 Goal is to determine at what point the model becomes aware that the domain is symmetrical.
 
+**Play in Concentric Rings**  
+![Concentric Rings](plots/ring_utilisation.png)
+In Gomoku, a weak model quickly learns not to play on the edges. A strong model knows that sometimes you must play on the edges or in the corners. I want to monitor that behavior over time to see when the model gets comfortable playing on edges again.
+1. Map moves to concentric rings on the board
+2. Count occurrences of play within concentric rings
+3. Normalise against the number of moves in a ring
+
+Motivated by my model refusing to play in a corner to prevent human opponent's win.
+
 **Duplication in n-Ply Game-Opening Sequences**  
 ![Game Opening Duplication](plots/duplication_awareness.png)
 Counting unique n-ply opening sequences across time. We can see the model becoming very opinionated about sequences of moves over time. From thousands of unique sequences to a few hundred.
