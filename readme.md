@@ -66,4 +66,11 @@ This repository hosts reinforcement learning dashboards for a custom implementat
 
 ---
 
+## Performance
+
+**Pipeline Performance**  
+![Pipeline Performance](plots/pipeline_performance.png)
+
+---
+
 _All plots are automatically updated as training progresses._
