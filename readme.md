@@ -43,6 +43,16 @@ This repository hosts reinforcement learning dashboards for a custom implementat
 
 ---
 
+## More on Symmetry
+
+**Duplication in n-Ply Game-Opening Sequences**  
+![Game Opening Duplication](plots/duplication_awareness.png)
+
+**Ratio of Symmetries in Opening Sequences**
+![Game Opening Duplication](plots/symmetry_awareness.png)
+
+---
+
 ## Model Evaluation
 
 **Performance in Evaluation Games**  
@@ -53,13 +63,6 @@ This repository hosts reinforcement learning dashboards for a custom implementat
 
 **Policy Entropy**  
 ![Policy Entropy](plots/policy_entropy.png)
-
----
-
-## Misc
-
-**Duplication in n-Ply Game-Opening Sequences**  
-![Game Opening Duplication](plots/duplication_awareness.png)
 
 ---
 
