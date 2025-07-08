@@ -17,7 +17,7 @@ This repository hosts reinforcement learning dashboards for a custom implementat
 ## Game Metrics
 
 **Game Length**  
-![Game Length](plots/avg_game_length.png)
+![Game Length](plots/game_length.png)
 
 **Game Outcome**  
 ![Game Outcome](plots/avg_outcome.png)
