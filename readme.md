@@ -1,6 +1,6 @@
 # RL Dashboards
 
-This repository hosts reinforcement learning dashboards for a custom implementation of Gumbel AlphaZero that I'm applying to 9x9 Gomoku with SGD (I'm experimenting with optimisers).
+This repository hosts reinforcement learning dashboards for a custom implementation of Gumbel AlphaZero that I'm applying to 9x9 Gomoku with Adam (I'm experimenting with optimisers).
 
 ---
 
@@ -8,6 +8,7 @@ This repository hosts reinforcement learning dashboards for a custom implementat
 
 **Self-Play Elo**  
 ![Self-Play Elo](plots/elo_vs_states.png)
+Evaluated against the models from the 9x9_gomoku_sgd branch for a consistent baseline.
 
 **Training Metrics**  
 ![Training Metrics](plots/training_metrics.png)
